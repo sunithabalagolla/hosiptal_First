@@ -1,0 +1,87 @@
+/* .imgHospital{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.hederline{
+    color: rgb(208, 210, 211);
+}
+.main-ul li{
+   
+    margin-top: 40px;
+}
+.adminimageround{
+    width: 80px;
+    height: 85px;
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.adminwelocm{
+    margin-top: 16px;
+}
+.dashboard{
+    height: 52px;
+    width: 80px;
+    color: rgb(239, 244, 248);
+    border-radius: 200px;
+}
+.dashboard_img,.department_img {
+    width: 25px;
+    height: 26px;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  
+  .dropdown-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .arrow {
+    margin-left: 45px;
+    transition: transform 0.3s ease;
+    font-size: 26px;
+    color: white;
+   
+  }
+  
+  .down {
+    transform: rotate(90deg);
+  }
+  
+  .right {
+    transform: rotate(0deg);
+  }
+  
+  .dropdown-list {
+  
+    padding: 0;
+   margin-left: 100px;
+  }
+  
+  .dropdown-list li {
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .dropdown-list li:hover {
+    background-color: #f0f0f0;
+  }
+  */
+  .dashboard ul li{
+list-style-type: none;
+  }
+  .dashboard ul li img{
+    height: 20px;
+    width: 80px;
+    color: white;
+  }
+  .dashboard{
+   margin-top: 20px;
+   margin-left: 20px;
+  }

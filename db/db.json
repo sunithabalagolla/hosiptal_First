@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "ABSuni89",
+      "password": "1233"
+    },
+    {
+      "id": 2,
+      "name": "ABSuni89",
+      "password": "123@"
+    },
+    {
+      "id": 3,
+      "name": "",
+      "password": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "password": ""
+    }
+  ],
+  "doctordata": [
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "isActive": false
+    },
+    {
+      "id": 1,
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "dsada",
+      "description": "asdsd"
+    },
+    {
+      "id": 4,
+      "name": "dsada",
+      "description": "asdsd"
+    },
+    {
+      "id": 5,
+      "name": "sun",
+      "description": "sunithas",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "name": "suni",
+      "description": "danes",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "inkk",
+      "description": "dnsmdnamsasa",
+      "isActive": false
+    },
+    {
+      "id": 8,
+      "name": "preer",
+      "description": "dnsmdnam"
+    },
+    {
+      "id": 9,
+      "name": "inkk",
+      "description": "jack"
+    },
+    {
+      "id": 10,
+      "name": "red",
+      "description": "pink"
+    },
+    {
+      "id": 11,
+      "name": "inkk",
+      "description": "line"
+    },
+    {
+      "id": 12,
+      "name": "ny ",
+      "description": "prrenefd",
+      "isActive": false
+    },
+    {
+      "id": 13,
+      "name": "me",
+      "description": "dnsmdnam",
+      "isActive": false
+    }
+  ]
+}

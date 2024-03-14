@@ -1,0 +1,258 @@
+
+
+.home-page {
+    display: flex;
+    background-image: url('./slide-02-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 76vh;
+  }
+  
+  
+.home-pages {
+  display: flex;
+  background-image: url('./doctor.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 76vh;
+}
+
+
+  .left-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    animation: slideInLeft 1s ease-in-out;
+  }
+  
+  .left-section .doctor-image {
+    width: 100%; 
+    max-width: 700px; 
+    height: auto; 
+    border-radius: 0;
+    margin-bottom: 120px;
+   
+}
+/*   
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; 
+  } */
+  .right-section{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    margin-top: 170px;
+    color: #06b2b6;
+    font-weight: bolder;
+  }
+  
+  .top-text {
+    animation: slideInTop 3s ease-in-out;
+
+  }
+  
+  .bottom-text {
+    animation: slideInBottom 3s ease-in-out;
+    color: rgb(131, 131, 132);
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+ 
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 8;
+    }
+  }
+  
+  @keyframes slideInTop {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInBottom {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .key-features .key-single{
+      border: 2px solid #06b2b6;
+      background-color: #06b2b6;
+      color: white;
+      padding: 40px;
+     text-align: center;
+    
+    
+  }
+  .key-features .key-two,.key-features .key-four{
+    background-color: #089497;
+  }
+.key-features i{
+  margin-right: 20px;
+  color: white;
+  font-size: 34px;
+}
+.featured-services{
+  margin-top: 120px;
+}
+
+.featured-services .icon1 i {
+  font-size: 92px;
+  line-height: 1;
+  color: #3fbbc0;
+padding: 20px;
+}
+.featured-services .icon1 a{
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.featured-services .icon1 .description{
+  padding: 20px;
+  color:rgb(53, 52, 52);
+  word-spacing: 14px;
+  font-size: 23px;
+}
+.featured-services .icon1{
+  border: 2px solid #3fbbc0 ;
+  box-shadow: 2px 2px 2px 2px ;
+  border-radius: 14px;
+margin-right: 49px;
+  margin-left: 64px; 
+  width: 450px;
+  height: 350px;
+
+  
+  background: linear-gradient(to top, #3fbbc0, transparent 70%); 
+  transition: background 0.5s ease; 
+}
+.featured-services .icon1:hover {
+  background: linear-gradient(to top, rgb(28, 184, 245), transparent 70%); 
+}
+
+
+.appointment_page{
+  margin-top: 170px;
+  background-color: #54c8cc;
+  height: 420px;
+}
+.appointment_page .containers{
+  margin-left: 190px;
+}
+.appointment_page .containers h3{
+  margin-top: 39px;
+  color: rgb(243, 239, 239);
+  font-size: 49px;
+  font-weight: bolder;
+}
+.appointment_page .containers p{
+  margin-top: 27px;
+  color: white;
+  font-size: 25px;
+}
+.appointment_page .appointment button{
+ margin-top: 70px;
+  color: white;
+  font-size: 29px;
+ background-color: #06b2b6;
+  width: 480px;
+  height: 80px;
+  border: 3px solid white;
+  border-radius: 25px;
+  margin-left: 170px;
+} 
+  
+
+.footer{
+  background-color: rgb(246, 243, 238);
+  height: 500px;
+  margin-top: -20px;
+  
+  position: relative;
+ 
+}
+.footer .footer-top{
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 410px;
+
+  font-size: 22px;
+}
+.footer .footer-top .social-links a{
+  border: 2px solid #06b2b6;
+ 
+  border-radius: 2px;
+ padding: 10px;
+
+}
+.footer .footer-top .footer-links ul li,.footer .footer-top .footer-links a{
+  text-decoration: none;
+  color: rgb(85, 82, 82);
+} 
+
+.footer .footer-top .social-links{
+  margin-top: -190px;
+
+  margin-right: -320px;
+ }
+
+
+
+
+
+
+@media screen and(maximum-width:990px) {
+  .responsive{
+    position: absolute;
+    background-color: red;
+    font-size: 20px;
+    width: 600px;
+  }
+  
+
+
+
+
+
+
+}
+
+
+
+  
+@media only screen and (max-width: 768px) {
+  .footer .footer-top {
+    margin-left: 0; 
+    text-align: center;
+  }
+
+  .footer .footer-top .social-links {
+    margin-top: 10px; 
+    margin-right: 0; 
+  }
+
+ 
+}
+  
+  

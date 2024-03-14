@@ -1,0 +1,26 @@
+.calendar-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 1700px;
+    height: 600px;
+    margin: auto;
+    background-color: skyblue;
+  }
+  
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+  .calendar-table th,
+  .calendar-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .current-date {
+    background-color: yellow;
+  }
+  

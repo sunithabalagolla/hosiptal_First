@@ -1,0 +1,293 @@
+
+.blog_header h1{
+    margin-top: 40px;
+    font-weight: bolder;
+     text-align: center;
+     font-size: 50px;
+     color: rgb(57, 53, 53);
+}
+.horzintal{
+    width: 180px; 
+   margin-left: 1060px;
+   animation: moveLine 4s linear infinite alternate;
+ 
+   height: 7px;
+   background-color: rgb(11, 171, 235);
+   border: none;
+}
+@keyframes moveLine {
+    from {
+        margin-left: 1060px;
+    }
+    to {
+        margin-left: calc(1020px + 6cm);
+    }
+} 
+.blog_para{
+    margin-left: 150px; 
+    font-size: 24px;
+    word-spacing: 10px;
+    color: rgb(93, 90, 90);
+ }
+
+ .section-content{
+    height: 800px;
+    
+    background-image: url('./hero-bg.jpg');
+    background-size: cover;
+    position: relative;
+  
+ }
+ .section-content{
+ margin: 0;
+ font-size: 48px;
+ font-weight: 700;
+ line-height: 56px;
+
+
+
+
+ }
+ .containers{
+    position: absolute;
+   left:150px;
+   
+ }
+ .containers h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: bold;
+ }
+ .section-content .containers .button_get{
+    border: 2px solid #06b2b6;
+    width: 390px;
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+    border-radius: 42px;
+    background-color: #06b2b6;
+    
+ }
+ .top-text{
+    animation: slideInLeft 3s ease-in-out;
+ }
+ .slide-content{
+  position: absolute;
+  bottom: 160px;
+  right: 1420px;
+  top:370px;
+  font-size: 26px;
+ }
+ .slide-content .slideOne-content{
+  border: 2px solid #06b2b6;
+  margin-top: 20px;
+  border-radius: 19px;
+  padding: 10px;
+  background-color: #06b2b6;
+  color:white;
+  box-shadow: 2px 2px 2px #414343;
+  animation: slideInLeft 3s ease-in-out;
+  
+ }
+ .slide-content .slideTwo-content{
+  border: 2px solid #06b2b6;
+  margin-top: 20px;
+  border-radius: 19px;
+  padding: 10px;
+  background-color: #06b2b6;
+  color:white;
+  box-shadow: 2px 2px 2px #414343;
+  animation: slideInRight 6s ease-in-out;
+ }
+ .slide-content .slideThree-content{
+  border: 2px solid #06b2b6;
+  margin-top: 20px;
+  border-radius: 19px;
+  padding: 10px;
+  background-color: #06b2b6;
+  color:white;
+  box-shadow: 2px 2px 2px #414343;
+  animation: slideInLeft 3s ease-in-out;
+ }
+ .slide-content .slideFour-content{
+  border: 2px solid #06b2b6;
+  margin-top: 20px;
+  border-radius: 19px;
+  padding: 10px;
+  background-color: #06b2b6;
+  color:white;
+  box-shadow: 2px 2px 2px #414343;
+  animation: slideInRight 6s ease-in-out;
+ }
+ @keyframes slideInLeft {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 8;
+    }
+  }
+  .text-right{
+    animation: slideInRight 6s ease-in-out;
+  }
+  @keyframes slideInRight {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 8;
+    }
+  }
+  .text-down{
+    animation: slideInBottom 20s ease-in-out;
+  }
+  @keyframes slideInBottom {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 8;
+    }
+  }
+
+section .containers{
+
+    background-color: white;
+}
+ 
+  section .containers .contents{
+    background-color: #0aa9ac;
+    height: 700px;
+  border-radius: 22px;
+  margin-bottom: 320px;
+  animation: slideInBottom 10s ease-in-out;
+
+  }
+  section .containers .contents h3{
+    font-size: 55px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding: 27px;
+  }
+  section .containers .contents p{
+    font-size: 25px;
+    padding: 27px;
+    word-spacing: 5px;
+    color:white;
+  }
+  section .containers .contents .more-btn {
+    text-decoration: none;
+    border-radius: 50px;
+    border: 3px solid rgb(141, 134, 134);
+   padding: 24px;
+    width: 360px;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(121, 113, 113);
+    font-size: 26px;
+  }
+section .containers .contentOne,section .containers .contentTwo,section .containers .contentThree{
+ 
+  border: 2px solid black;
+margin-top: 100px;
+font-size: 30px;
+margin-left: 120px;
+border-radius: 12px;
+height:350px;
+box-shadow: 2px 2px 4px black;
+animation: slideInBottom 10s ease-in-out;
+}
+section .containers .contentOne i,section .containers .contentTwo i,section .containers .contentThree i{
+  font-size: 100px;
+  margin-left: 100px;
+  color:#06b2b6;
+  padding: 12px;
+}
+section .containers .contentOne h4,section .containers .contentTwo h4,section .containers .contentThree h4{
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.features .features_content{
+  animation: slideInRight 6s ease-in-out;
+}
+.features .images{
+  background-image: url('./features.jpg');
+ margin-left: -200px;
+ width: 1000px;
+ animation: slideInBottom 6s ease-in-out;
+}
+.features {
+  background-color: #f1f4f4;
+  height: 900px;
+}
+.features .feature_div{
+margin-left: 250px;
+}
+.features i{
+  font-size: 65px;
+  color: #06b2b6;
+}
+.features p{
+  font-size: 20px;
+  color: #414343;
+}
+.features h4{
+ font-weight: bolder;
+ font-size: 34px;
+}
+
+
+@media (max-width: 768px) {
+  .blog_header h1 {
+      font-size: 30px;
+  }
+
+  .blog_para {
+      margin-left: 20px;
+      font-size: 16px;
+      word-spacing: 3px;
+  }
+
+  .section-content {
+      height: auto;
+      padding: 50px;
+  }
+
+  .containers {
+      left: 20px;
+  }
+
+  .containers h1 {
+      font-size: 40px;
+  }
+
+  .section-content .containers .button_get {
+      width: 100%;
+  }
+
+  .slide-content {
+      position: static;
+      font-size: 18px;
+  }
+
+  .slide-content .slideOne-content,
+  .slide-content .slideTwo-content,
+  .slide-content .slideThree-content,
+  .slide-content .slideFour-content {
+      font-size: 14px;
+      width: 70%;
+  }
+  .top-text{
+    margin-bottom: -10px;
+    font-size: 3px;
+  }
+}

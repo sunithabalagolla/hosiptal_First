@@ -1,0 +1,135 @@
+.outer_color{
+    background-color:#06b2b6;
+    height: 100vh;
+    
+    position: relative;
+}
+.outer_color .logoblack{
+    width: 220px;
+    height: 220px;
+    margin-right:120px;
+    position: relative;
+   
+}
+.outer_color span{
+    
+    position: absolute;
+    left: 1120px;
+    top: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+    
+}
+.asisitantimage{
+    width: 280px;
+    height: 480px;
+    margin-top: 120px;
+}
+.header{
+    position: absolute;
+    top: 150px;
+    right: 950px;
+}
+.border_color{
+    
+    height: 740px;
+    width: 76%;
+    position: absolute;
+   top: 230px;
+   right: 230px;
+   box-shadow: 5px 5px 10px 6px black;
+   border-radius: 68px;
+}
+.input_border{
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    width: 800px;
+    height: 700px;
+    background-color: white;
+   
+    border-radius: 75px;
+}
+.user-type-btn {
+    
+    width: 230px; 
+    height: 43px; 
+    margin: 10px; 
+    margin-top: 30px;
+color: white;  
+font-size: 20px;  
+border-radius: 22px;
+box-shadow: 2px 2px 4px black;
+
+}
+.superadmin-btn{
+    background-color: #f39c12;
+}
+.admin-btn {
+    background-color: #1ede2b;
+}
+
+.doctor-btn {
+    background-color: #f39c12;
+}
+
+.pharmacist-btn {
+    background-color: #3498db;
+}
+
+.pathologist-btn {
+    background-color: #e67e22;
+}
+
+.radiologist-btn {
+    background-color: #1abc9c;
+}
+
+.accountant-btn {
+    background-color: #34495e;
+}
+
+.receptionist-btn {
+    background-color: #16a085;
+}
+
+.nurse-btn {
+    background-color: #95a5a6;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .outer_color span {
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+  
+    .asisitantimage {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .header {
+      position: relative;
+      right: 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .border_color {
+      width: 100%;
+      top: 130px;
+      right: 0;
+    }
+  
+    .input_border {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+    }
+  
+    .user-type-btn {
+      width: 100%;
+    }
+  }

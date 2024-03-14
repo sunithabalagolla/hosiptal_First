@@ -1,0 +1,71 @@
+.dashboard_div{
+    margin-top: 10px;
+}
+.globalfill{
+    margin-left: 1390px;
+    font-size: 30px;
+}
+.linkofdoctors{
+    color:black;
+    text-decoration: none;
+    background-color: transparent;
+    /* border: 2px solid black; */
+}
+.deptartment_record{
+    border: 2px solid rgb(184, 181, 181);
+    /* margin-right: 150px; */
+    padding: 70px;
+    width: 920px;
+    height: 220px;
+    margin-right: 88px;
+    border-radius: 30px;
+    background-color: rgb(237, 240, 243);
+}
+.dashboard_div2 {
+    margin-top:80px;
+}
+.number_linkofdoctors{
+    font-size: 69px;
+    font-weight: bolder; 
+    margin-left: 30px;
+}
+.orange_linkofdoctors{
+    color: orange;
+    margin-left: 30px;
+}
+.brown_linkofdoctors{
+    
+    color: brown;
+    height: 40px;
+    font-size: 49px;
+   margin-left: 20px;
+    margin-top: 29px;
+}
+.green_linkofdoctors{
+    color: darkolivegreen;
+    margin-left: 30px;
+}
+.yellow_linkofdoctors{
+    color: gold;
+    margin-left: 30px;
+}
+.pink_linkofdoctors{
+color: magenta;
+margin-left: 30px;
+}
+.skyblue_linkofdoctors{
+    color: cyan;
+    margin-left: 30px;
+}
+.blue_linkofdoctors{
+    color: dodgerblue;
+    margin-left: 30px;
+}
+.pinks_linkofdoctors{
+    color: darkred;
+    margin-left: 30px;
+}
+.color_linkofdoctors{
+    color: springgreen;
+    margin-left: 30px;
+}

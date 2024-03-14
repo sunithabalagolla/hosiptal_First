@@ -1,0 +1,39 @@
+
+
+
+.action-container {
+    display: inline-block;
+    background-color:rgb(8, 94, 128); 
+    border-radius: 19px;
+    
+    padding: 14px; 
+    
+}
+.action-containers {
+    display: inline-block;
+    background-color: red; 
+    border-radius: 19px;
+  
+    padding: 14px; 
+    
+}
+.edit-icon,
+.delete-icon,
+.action-text {
+    color: white;
+}
+.edit-icon,.delete-icon{
+   font-size: 21px;
+   
+} 
+.action-text{
+    margin-right: 20px;
+   font-size: 21px;
+}
+thead tr th{
+    font-weight: bolder;
+    font-size: 20px;
+}
+tbody tr td{
+    font-size: 16px;
+}

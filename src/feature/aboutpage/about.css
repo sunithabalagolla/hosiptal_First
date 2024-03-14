@@ -1,0 +1,369 @@
+.aboutimg{
+    width: 33%;
+    height: 54vh;
+}
+.abouthead{
+    text-align: center;
+    /* margin-top: 22px; */
+    
+}
+/* .abouthead h1{
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 90px;
+   
+    text-shadow: 5px 5px 5px rgb(48, 48, 47);
+    padding: 5px;
+
+} */
+.abouthead h1 span{
+    color: rgb(19, 174, 235);
+}
+.abouthead p{
+    font-size: 18px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutimg{
+    margin-top: 90px;
+    margin-left: 250px;
+    border-radius: 129px;
+    box-shadow: 4px 4px 4px 4px rgb(127, 115, 115);
+    position: relative;
+}
+.asideabout{
+    display:inline-block;
+    
+}
+.asideabout h1{
+    margin-left: 190px;
+    position: absolute;
+    top: 340px;
+    font-size: 80px;
+  
+}
+.asideabout p{
+    margin-left: 190px;
+    position: absolute;
+    top: 550px;
+    padding: 4px;
+    
+}
+.learnmore{
+    margin-left: 1190px;
+    position: absolute;
+    top: 790px;
+}
+.aboutusBtn{
+    
+    font-size: 23px;
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #06b2b6;
+    border-radius: 12px;
+    border: 5px solid #06b2b6;
+    box-shadow: 5px 5px 5px 4px #363636;
+}
+.aboutusmid{
+    margin-top: 120px;
+    background-color: rgb(229, 243, 246);
+    margin-bottom: 0px;
+    height: 900px;
+}
+.aboutusmid h1{
+   padding: 30px;
+    text-align: center;
+    font-size: 70px;
+}
+.aboutusmid p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: -20px;
+}
+.midlogo{
+   width: 120px;
+  
+}
+.medallogo{
+    width: 24%;
+    height: 600px;
+    border: 2px solid rgb(243, 239, 239);
+    
+    margin-left: 190px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: white;
+    box-shadow: 5px -5px 5px -3px  rgb(75, 191, 230);
+   
+}
+.medallogo2{
+    width: 24%;
+    height: 600px;
+    border: 2px solid rgb(243, 238, 238);
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: white;
+   
+    box-shadow: 5px -5px 5px -3px  rgb(75, 191, 230);
+}
+.medallogo3{
+    width: 24%;
+    height: 600px;
+    border: 2px solid rgb(248, 242, 242);
+    margin-left: 100px;
+    text-align: center;
+   padding-top: 35px;
+   background-color: white;
+   box-shadow: 5px -5px 5px -3px  rgb(75, 191, 230);
+}
+.medals{
+   margin-top: 80px;
+}
+
+
+/* -----------------------time table */
+
+.timetable{
+    margin-top: 30px;
+    background-image: url('./testimonial_bg.webp');
+    background-color: #06b2b6;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+.timetable2{
+   
+    background: rgba(6, 178, 182, 0.8);
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+    padding: 160px;
+
+}
+
+
+
+section {
+  
+    margin-bottom: 20px;
+    position: relative;
+    width:100%;
+    
+    top: 0px;
+    /* border-radius: 49px; */
+    height: 60vh;
+    background-color: rgb(168, 173, 173);
+    overflow: hidden;
+    box-shadow: 5px -5px 5px -3px rgb(218, 216, 216);
+}
+
+section .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url('wave.png');
+    background-size: 1000px 100px;
+}
+
+.wave.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+.wave.wave2 {
+    animation: animate2 30s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+.wave.wave3 {
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;  /* Corrected the value */
+}
+
+.wave.wave4 {
+    animation: animate2 15s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1000px;
+    }
+}
+.sethoscopewidth{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 120px;
+    margin-left: 390px;
+}
+.footerhead{
+    margin-top: 30px;
+    margin-left: 330px;
+}
+.footerOrderedlist ul li{
+list-style-type: none;
+}
+.footerOrderedlist{
+    margin-left: 890px;
+   margin-top: -160px;
+}
+.footerOrderedlist div{
+    margin-left: 90px;
+}
+/*----------------------------------------------fmdm*/
+.quesanswr{
+    border-collapse: collapse;
+    width: 900px;
+    margin-top: -40px;
+  }
+  
+  .quesanswr tr,.quesanswr td{
+    border: 1px solid #ddd;
+    padding: 22px;
+    text-align: left;
+  }
+  
+  .quesanswr th{
+    background-color: #f2f2f2;
+    font-size: 26px;
+    color: rgb(63, 63, 63);
+   padding: 20px;
+  }
+  .quesanswr td{
+    background-color:#06b2b6;
+    font-size: 20px;
+    color: white;
+   padding: 20px;
+   font-family: cursive;
+  }
+  
+ 
+  tr.answer-row {
+    display: none;
+  }
+  
+
+  tr.question-row:hover + tr.answer-row {
+    display: table-row;
+  }
+  @media only screen and (max-width: 1200px) {
+    .aboutimg {
+      width: 50%;
+    }
+  
+    .abouthead h1 {
+      font-size: 40px;
+    }
+  
+    .asideabout h1,
+    .asideabout p {
+      margin-left: 10px;
+      position: static;
+      top: auto;
+    }
+  
+    .learnmore {
+      margin-left: 10px;
+      position: static;
+      top: auto;
+    }
+  
+    .aboutusBtn {
+      margin-top: 10px;
+    }
+  
+    .medallogo,
+    .medallogo2,
+    .medallogo3 {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .timetable {
+      height: auto;
+    }
+  
+    .timetable2 {
+      padding: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .aboutimg {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .abouthead h1 {
+      font-size: 30px;
+    }
+  
+    .asideabout h1,
+    .asideabout p {
+      margin-left: 10px;
+      position: static;
+      top: auto;
+    }
+  
+    .learnmore {
+      margin-left: 10px;
+      position: static;
+      top: auto;
+    }
+  
+    .aboutusBtn {
+      margin-top: 10px;
+    }
+  
+    .medallogo,
+    .medallogo2,
+    .medallogo3 {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .timetable {
+      height: auto;
+    }
+  
+    .timetable2 {
+      padding: 30px;
+    }
+  
+    .footerOrderedlist {
+      margin-left: auto;
+      margin-top: -50px;
+    }
+  }
+
+
+
+  
+
